@@ -30,7 +30,8 @@ holiday_hash.each do |key, value|
     if season == :christmas || :new_years
       season << supply
     end
-  
+  end
+end
     holiday_hash  
 end
 
