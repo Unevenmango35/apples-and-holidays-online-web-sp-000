@@ -74,13 +74,6 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 results = []
 
-  holiday_hash.collect{ |season, holidays|
-    holidays.select{ |holiday, supplies|
-      supplies.include?("BBQ")
-    }.keys
-  }.flatten
-end
-end
 end
 
 
