@@ -80,7 +80,7 @@ holiday_hash.collect {|season, holiday|
 }.flatten
 end
 end
-end
+
 
 
 
