@@ -79,8 +79,7 @@ hholidays_with_BBQ = []
       if supplies.include?("BBQ")
          holidays_with_BBQ << holiday 
       end
-    end
-
+  
   end
   holidays_with_BBQ.uniq
 end	end
